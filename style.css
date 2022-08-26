@@ -1,0 +1,48 @@
+body{
+    background-image:url("https://media0.giphy.com/media/3oxHQERYBueKZdAb9m/giphy.gif") ;
+    background-size: cover;
+}
+.div_speed_image{
+    width: 200px;
+    border-radius: 250px;
+    height: 200px;
+}
+.div_volume_image{
+    width: 200px;
+    border-radius: 250px;
+}
+.div_speed{
+    float: right;
+    margin-top: 200px;
+}
+.div_volume{
+    float: left;
+    margin-top: 200px;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:aquamarine ;
+}
+.play_button{
+    width: 300px;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: comic;
+}
+.btn{
+    font-weight: bold;
+}
+.play_button2{
+    width: 300px;
+    font-size: 25px;
+    background-color:orangered;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: comic;
+}
