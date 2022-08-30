@@ -36,8 +36,8 @@ function gotPoses(results){
         rightWristX= results[0].pose.rightWrist.x;
         rightWristY= results[0].pose.rightWrist.y;
 
-        leftWristX= results[0].pose.rightWrist.x;
-        leftWristY= results[0].pose.rightWrist.y;
+        leftWristX= results[0].pose.leftWrist.x;
+        leftWristY= results[0].pose.leftWrist.y;
     }
 }
 function draw(){
