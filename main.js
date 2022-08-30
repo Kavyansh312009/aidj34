@@ -45,7 +45,35 @@ function draw(){
 
     fill("deepskyblue");
     stroke("dodgerblue");
-    circle(leftWristX+400,leftWristY,20);
+
+    if(scoreLeftWrist > 0.2){
+        circle(leftWristX,leftWristY,20);
+
+        if(leftWristY > 0 && leftWristY <=100){
+            document.getElementById("speed").innerHTML = "speed = 0.5";
+            song.rate(0.5);
+        }
+        
+        else if(leftWristY > 100 && leftWristY <=200){
+            document.getElementById("speed").innerHTML = "speed = 1";
+            song.rate(1);
+        }
+        
+        else if(leftWristY > 200 && leftWristY <=300){
+            document.getElementById("speed").innerHTML = "speed = 1.5";
+            song.rate(1.5);
+        }
+        
+        else if(leftWristY > 300 && leftWristY <=400){
+            document.getElementById("speed").innerHTML = "speed = 2.0";
+            song.rate(2.0);
+        }
+        
+        else if(leftWristY > 400 && leftWristY <=500){
+            document.getElementById("speed").innerHTML = "speed = 2.5";
+            song.rate(2.5);
+        }
+    }
 
     if(scoreRightWrist> 0.2){
         circle(rightWristX,rightWristY,20);
